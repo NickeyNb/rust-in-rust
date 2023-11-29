@@ -1,3 +1,4 @@
+// 3.2
 // Rust is a statically typed language, which means that it must know the types of all variables at compile time.
 // Two data type subsets: scalar and compound.
 // A scalar type represents a single value. 

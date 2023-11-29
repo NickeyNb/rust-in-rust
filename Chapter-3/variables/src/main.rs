@@ -1,5 +1,4 @@
 
-
 // 3.1-variables and mutability
 fn main() {
     // ***Variables*** are immutable by default 
