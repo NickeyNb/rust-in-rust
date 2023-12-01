@@ -4,6 +4,7 @@
 
 fn main() {
     println!("Hello, world!");
+    expression();
     another_function(5, 10);
 }
 fn another_function (x:i32, y:i32) {
@@ -23,7 +24,7 @@ fn expression() {
         x + 1   // doesn't have semicolon
     };
 
-    println!("The value of y is: {y}");
+    println!("The value of y is: {y}"); // 4
     
 }
 // Expressions do not include ending semicolons. If you add a semicolon to the end of an expression, you turn it into a statement, and it will then not return a value. 
