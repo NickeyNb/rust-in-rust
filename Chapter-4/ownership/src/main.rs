@@ -101,6 +101,7 @@
 // Luckily for us, Rust has a feature for using a value without transferring ownership, called references.
 
 // ====================================
+// 4.2
 // ---References and Borrowing---
 
 // fn main () {
@@ -165,3 +166,19 @@
 // The Rules of References
 // At any given time, you can have either one mutable reference or any number of immutable references.
 // References must always be valid.
+// ============================================
+
+// 4.3
+// ---The Slice Type---
+// Slices let you reference a contiguous sequence of elements in a collection rather than the whole collection.
+// String Slices
+// A string slice is a reference to part of a String, and it looks like this:
+
+fn main () {
+
+    let s = String::from("hello world");
+    
+    let hello = &s[0..5];   // [..5]    // starting to 5(exclude)
+    let world = &s[6..11];  // [6..]    // 6th to last
+    println!("{hello} or {world}");
+}
