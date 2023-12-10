@@ -1,13 +1,13 @@
 // Defining and instantiating structures
 
 // Defined the structure, instantiating it in main
-struct User {
-    // These are called fields
-    active: bool,
-    username: String,
-    email: String,
-    sign_in_count: u64,
-}
+// struct User {
+//     // These are called fields
+//     active: bool,
+//     username: String,
+//     email: String,
+//     sign_in_count: u64,
+// }
 
 // fn main() {
 //     // instantiating User struct
@@ -74,12 +74,67 @@ struct User {
 
 // You can also define structs that don’t have any fields! These are called unit-like structs because they behave similarly to ()
 // Unit-like structs can be useful when you need to implement a trait on some type but don’t have any data that you want to store in the type itself. 
-struct AlwaysEqual;
+// struct AlwaysEqual;
 
-fn main() {
-    let subject = AlwaysEqual;
-}
+// fn main() {
+//     let subject = AlwaysEqual;
+// }
 
 // ===============================
 
 // Ownership of Struct Data
+
+// ===============================
+
+// 5.2
+// An example program using structs
+// area of rectangle
+
+// fn main() {
+//     let width1=30;
+//     let height1=50;
+
+//     println!("The area of rectangle is {}", area_of_rectangle(width1, height1));
+// }
+
+// fn area_of_rectangle(width1:i32, height1:i32)->i32 {
+//     width1 * height1
+// }
+// ==============
+// using tuple type
+// fn main() {
+//     let rect1 = (10, 20);
+//     println!("The area is {}", area_rectangle(rect1));
+// }
+
+// fn area_rectangle(dimensions:(i32, i32))->i32 {
+//     dimensions.0 * dimensions.1
+// }
+
+// ==================
+// Refactoring with Structs: Adding More Meaning
+
+// Rust does include functionality to print out debugging information, but we have to explicitly opt in to make that functionality available for our struct. To do that, we add the outer attribute #[derive(Debug)] just before the struct definition,
+
+
+#[derive(Debug)]
+struct Rectangle {
+    width:u32,
+    height:u32,
+}
+fn main () {
+    let rect1 = Rectangle{
+        width:10,
+        height:10,
+    };
+
+    // println!("The values is {:?}", rect1); //The values is Rectangle { width: 10, height: 10 }
+    println!("The area is {}", area(&rect1));
+}
+
+// Our area function is now defined with one parameter, which we’ve named rectangle, whose type is an immutable borrow of a struct Rectangle instance. 
+fn area(rectangle:&Rectangle)->u32 {
+    rectangle.width * rectangle.height
+}
+// The area function accesses the width and height fields of the Rectangle instance (note that accessing fields of a borrowed struct instance does not move the field values, which is why you often see borrows of structs).
+
