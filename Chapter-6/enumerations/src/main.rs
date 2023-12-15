@@ -1,32 +1,24 @@
+// The match Control Flow Construct
+// Rust has an extremely powerful control flow construct called match that allows you to compare a value against a series of patterns and then execute code based on which pattern matches. 
 
-// 6.1
-// Defining an enum-enums give you a way of saying a value is one of a possible set of values.
-
-// IpAddrKind is now a custom data type that we can use elsewhere in our code.
-// enum IpAddrKind {
-//     V4, 
-//     V6
-// }
-
-// fn main() {
-    // println!("Hello, world!");
-    // let four = IpAddrKind::V4;
-    // let six = IpAddrKind :: V6;
-    // route(IpAddrKind::V4)
-// }
-
-
-//
-// This new definition of the IpAddr enum says that both V4 and V6 variants will have associated String values:
-enum IpAddr {
-    V4(String),
-    V6(String),
+enum Coin {
+    Penny,
+    Nickel,
+    Dime,
+    Quarter,
 }
 
-fn main() {
-    let home: IpAddr = IpAddr::V4(String::from("127.0.0.1"));
-    let loopback:IpAddr = IpAddr::V6(String::from("::1"));
+fn main () {
 
 }
-
-
+fn value_in_cents(coin: Coin) -> u8 {
+    match coin {
+        Coin::Penny => {
+            println!("Lucky Penny !");
+            1
+        }    
+        Coin::Nickel => 5,
+        Coin::Dime => 10,
+        Coin::Quarter => 25,
+    }
+}
