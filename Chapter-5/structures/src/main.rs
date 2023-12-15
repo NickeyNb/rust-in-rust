@@ -152,9 +152,11 @@
 // }
 
 // impl Rectangle {
+//     self which is the instance the method is called on here Rectangle reference
 //     fn area(&self)->u32 {
 //         self.width * self.height
 //     }  
+        
 // }
 
 // fn main() {
