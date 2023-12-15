@@ -19,26 +19,26 @@
 
 fn main() {
     // ***Boolean***
-    // let male: bool = true;
-    // let female:bool = false;
-    // println!("{}", male);
-    // println!("{}", female);
+    let male: bool = true;
+    let female:bool = false;
+    println!("{}", male);
+    println!("{}", female);
 
     // *** Char***
-    // let c = 'z';
-    // let z: char = 'Z'; // with explicit type annotation
-    // let heart_eyed_cat = '😻';
-    // println!("{}", c);
-    // println!("{}", z);
-    // println!("{}", heart_eyed_cat);
+    let c = 'z';
+    let z: char = 'Z'; // with explicit type annotation
+    let heart_eyed_cat = '😻';
+    println!("{}", c);
+    println!("{}", z);
+    println!("{}", heart_eyed_cat);
 
     // ***tuple***
-    // let tup:(i32, f32, u8)=(500, 6.4, 1);
-    // let (x, y, z) = tup;
-    // println!("The value of y is {y}");
+    let tup:(i32, f32, u8)=(500, 6.4, 1);
+    let (x, y, z) = tup;
+    println!("The value of y is {y}");
 
-    // let five_hundred = tup.0;   // tup . index
-    // let six_point_four = tup.1;
+    let five_hundred = tup.0;   // tup . index
+    let six_point_four = tup.1;
 
     // ***Array type***
     let nums = [1, 2, 3, 4, 5];
