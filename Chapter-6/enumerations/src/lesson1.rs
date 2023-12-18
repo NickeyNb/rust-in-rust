@@ -1,4 +1,4 @@
-
+// ***** Rename the file to main.rs******
 // 6.1
 // Defining an enum-enums give you a way of saying a value is one of a possible set of values.
 
