@@ -1,4 +1,8 @@
-// You want to input two integers, and output their sum.
-fn main() {
-    println!("Welcome to practice world !!");
+// 5- Declare and initialize variables for a person's name, age, and height. Print these values.
+
+use std::io;
+fn main () {
+    println!("Change this file to main.rs");
+
+
 }

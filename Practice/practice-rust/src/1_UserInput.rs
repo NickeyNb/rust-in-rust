@@ -19,5 +19,4 @@ fn main() {
     let parsed_number:i32 = user_input.trim().parse().expect("Enter a number"); 
     println!("Parsed number is {}", parsed_number);
 
-    
 }
