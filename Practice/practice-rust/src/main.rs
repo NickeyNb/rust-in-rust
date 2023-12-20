@@ -1,8 +1,13 @@
-// 5- Declare and initialize variables for a person's name, age, and height. Print these values.
+// 6- Create a boolean variable that represents whether it's sunny today. Print a message based on the value.
 
-use std::io;
-fn main () {
-    println!("Change this file to main.rs");
+fn main() {
+    println!("Change file to main.rs ");
+    let is_sunny:bool= true;
 
-
+    if is_sunny { 
+        println!("It is a sunny day !");
+        
+    } else {
+        println!("It is not a sunny day");
+    }
 }

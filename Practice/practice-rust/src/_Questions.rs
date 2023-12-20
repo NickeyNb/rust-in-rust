@@ -8,7 +8,6 @@
 // 4- Perform addition, subtraction, multiplication, division, and modulo operations on two numeric variables.
 // 5- Declare and initialize variables for a person's name, age, and height. Print these values.
 // 6- Create a boolean variable that represents whether it's sunny today. Print a message based on the value.
-// 7- Define a string variable representing your favorite programming language. Print a message using the string.
 
 // 2. Control Flow:
 // Write a program that checks if a number is positive, negative, or zero and prints the result.
