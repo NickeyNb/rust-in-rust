@@ -1,3 +1,4 @@
+// *****rename file to main.rs*****
 // Taking user-input as String as well as number(u32)
 
 use std::io;    // importing standard input/output module

@@ -1,7 +1,7 @@
 
 // Certainly! Let's break it down into five questions for each category:
 
-// 1. Variables and Data Types:
+// a). Variables and Data Types:
 // 1- Take user input
 // 2- Take two inputs and print their sum
 // 3- Declare variables for an integer, a floating-point number, a boolean, a character, and a string. Print the values.
@@ -9,7 +9,7 @@
 // 5- Declare and initialize variables for a person's name, age, and height. Print these values.
 // 6- Create a boolean variable that represents whether it's sunny today. Print a message based on the value.
 
-// 2. Control Flow:
+// b). Control Flow:
 // Write a program that checks if a number is positive, negative, or zero and prints the result.
 // Implement a simple rock-paper-scissors game where the user can input their choice.
 // Create a program that determines if a given year is a leap year or not.
