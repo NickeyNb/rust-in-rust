@@ -10,11 +10,11 @@
 // 6- Create a boolean variable that represents whether it's sunny today. Print a message based on the value.
 
 // b). Control Flow:
-// Write a program that checks if a number is positive, negative, or zero and prints the result.
-// Implement a simple rock-paper-scissors game where the user can input their choice.
-// Create a program that determines if a given year is a leap year or not.
-// Write a function that checks if a given character is a vowel or a consonant.
-// Implement a basic calculator program that takes two numbers and an operator as input.
+// 7- Write a program that checks if a number is positive, negative, or zero and prints the result.
+// 8- Implement a simple rock-paper-scissors game where the user can input their choice.
+// 9- Create a program that determines if a given year is a leap year or not.
+// 10- Write a function that checks if a given character is a vowel or a consonant.
+// 11- Implement a basic calculator program that takes two numbers and an operator as input.
 
 // 3. Functions:
 // Create a function that calculates the area of a rectangle given its length and width.
