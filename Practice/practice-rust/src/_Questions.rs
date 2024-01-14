@@ -15,8 +15,8 @@
 // 9- Implement a basic calculator program that takes two numbers and an operator as input.
 
 // 3. Functions:
-// Create a function that calculates the area of a rectangle given its length and width.
-// Write a function that takes a string as input and returns the string reversed.
+// 10- Create a function that calculates the area of a rectangle given its length and width.
+// 11- Write a function that takes a string as input and returns the string reversed.
 // Implement a function that checks if a number is prime.
 // Create a function that converts Celsius to Fahrenheit.
 // Write a recursive function to calculate the factorial of a number.
