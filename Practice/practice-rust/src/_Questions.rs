@@ -17,9 +17,8 @@
 // 3. Functions:
 // 10- Create a function that calculates the area of a rectangle given its length and width.
 // 11- Write a function that takes a string as input and returns the string reversed.
-// Implement a function that checks if a number is prime.
-// Create a function that converts Celsius to Fahrenheit.
-// Write a recursive function to calculate the factorial of a number.
+// 12- Implement a function that checks if a number is prime.
+// 13- Write a recursive function to calculate the factorial of a number.
 
 // 4. Ownership and Borrowing (Basic Level):
 // Define a function that takes ownership of a vector and prints its elements.
