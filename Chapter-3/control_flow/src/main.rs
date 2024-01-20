@@ -38,6 +38,7 @@ fn main() {
 
         index += 1;
     }
+    
     for element in a {
         println!("the value is: {element}");
     }

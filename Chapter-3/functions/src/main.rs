@@ -7,6 +7,7 @@ fn main() {
     expression();
     another_function(5, 10);
 }
+// snake case 
 fn another_function (x:i32, y:i32) {
 
     println!("I am another funciton with value {x} {y}");

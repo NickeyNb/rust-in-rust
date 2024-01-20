@@ -18,6 +18,10 @@
 // 2- Array type = arrays in Rust have a fixed length.
 
 fn main() {
+
+    // ***Float***
+    let distance_in_km : f32 = 5.5;
+
     // ***Boolean***
     let male: bool = true;
     let female:bool = false;
@@ -33,6 +37,9 @@ fn main() {
     println!("{}", heart_eyed_cat);
 
     // ***tuple***
+    // i32 = signed value-32bits = can put both positive and negative numbers
+    // u8 = unsigned means only positive value
+    // let population:u32 = 62_000_000; // _ is acting as comma
     let tup:(i32, f32, u8)=(500, 6.4, 1);
     let (x, y, z) = tup;
     println!("The value of y is {y}");

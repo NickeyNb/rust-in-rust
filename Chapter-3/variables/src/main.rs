@@ -1,5 +1,6 @@
 
 // 3.1-variables and mutability
+// variables use snake_case
 fn main() {
     // ***Variables*** are immutable by default 
     let mut x=5;
