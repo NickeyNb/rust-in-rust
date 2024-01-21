@@ -67,6 +67,7 @@ fn main () {
         3=>fancy_hat(),
         7=>remove_hat(),
         _=>other(),
+        // _ is default case
     }
     fn other() {}
 

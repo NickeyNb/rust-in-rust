@@ -18,6 +18,7 @@
 //     //     email:String::from("first@first.com"),
 //     //     sign_in_count:0,
 //     // };
+
 //     // println!("{}", user.email);
 //     // // since we have marked the instance as mut we can change it
 //     // user.email=String::from("second@second.com");
@@ -60,6 +61,7 @@
 
 // }
 // =================================
+
 // Using Tuple Structs Without Named Fields to Create Different Types   
 
 // struct Color(i32, i32, i32);
@@ -100,6 +102,7 @@
 // fn area_of_rectangle(width1:i32, height1:i32)->i32 {
 //     width1 * height1
 // }
+
 // ==============
 // using tuple type
 // fn main() {
@@ -152,7 +155,7 @@ struct Rectangle {
 }
 
 impl Rectangle {
-    self which is the instance the method is called on here Rectangle reference
+    // self which is the instance the method is called on here Rectangle reference
     fn area(&self)->u32 {
         self.width * self.height
     }  
