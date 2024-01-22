@@ -16,16 +16,13 @@
 
 // 3. Functions:
 // 10- Create a function that calculates the area of a rectangle given its length and width.
-// 11- Write a function that takes a string as input and returns the string reversed.
-// 12- Implement a function that checks if a number is prime.
-// 13- Write a recursive function to calculate the factorial of a number.
+// 12- Implement a function that checks if a number is prime.]
 
 // 4. Ownership and Borrowing (Basic Level):
-// Define a function that takes ownership of a vector and prints its elements.
-// Modify the function to borrow the vector instead of taking ownership.
-// Create a function that takes a string slice and appends another string to it.
-// Write a program that demonstrates the ownership transfer between variables.
-// Implement a function that returns the length of the longest word in a vector of strings.
+// 13- Define a function that takes ownership of a vector and prints its elements.
+// 14- Modify the function to borrow the vector instead of taking ownership.
+// 15- Create a function that takes a string slice and appends another string to it.
+// 16- Write a program that demonstrates the ownership transfer between variables.
 
 // 5. Arrays and Slices:
 // Declare an array of integers and print each element using a for loop.
