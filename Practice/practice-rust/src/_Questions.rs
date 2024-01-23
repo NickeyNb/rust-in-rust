@@ -25,11 +25,11 @@
 // 16- Write a program that demonstrates the ownership transfer between variables.
 
 // 5. Arrays and Slices:
-// Declare an array of integers and print each element using a for loop.
-// Find the sum of all elements in an array.
-// Create a slice from an array, modify the slice, and print both the array and the slice.
-// Write a program that searches for a specific element in an array and prints its index.
-// Implement a function that takes a slice and returns the reversed slice.
+// 17- Declare an array of integers and print each element using a for loop.
+// 18- Find the sum of all elements in an array.
+// 19- Create a slice from an array, modify the slice, and print both the array and the slice.
+// 20- Write a program that searches for a specific element in an array and prints its index.
+// 21- Implement a function that takes a slice and returns the reversed slice.
 
 // 6. Loops and Iterators:
 // Write a program that prints the first 10 numbers in the Fibonacci sequence.
