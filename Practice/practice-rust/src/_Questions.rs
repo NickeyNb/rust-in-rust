@@ -32,11 +32,10 @@
 // 21- Implement a function that takes a slice and returns the reversed slice.
 
 // 6. Loops and Iterators:
-// Write a program that prints the first 10 numbers in the Fibonacci sequence.
-// Use a loop to iterate over a range of numbers and print whether each number is even or odd.
-// Implement a simple countdown timer using a loop.
-// Write a program that generates and prints a random number between 1 and 100.
-// Use a loop to print the multiplication table for a given number.
+// 22- Write a program that prints the first 10 numbers in the Fibonacci sequence.
+// 23- Use a loop to iterate over a range of numbers and print whether each number is even or odd.
+// 24- Use a loop to print the multiplication table for a given number.
+// 25- Write a program that generates and prints a random number between 1 and 100.
 
 // 7. Error Handling:
 // Implement a function that divides two numbers, handling the case of division by zero with a custom error message.
