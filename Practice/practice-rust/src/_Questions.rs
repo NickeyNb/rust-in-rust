@@ -37,19 +37,18 @@
 // 24- Use a loop to print the multiplication table for a given number.
 // 25- Write a program that generates and prints a random number between 1 and 100.
 
-// 7. Error Handling:
-// Implement a function that divides two numbers, handling the case of division by zero with a custom error message.
-// Use the Result type to handle errors in a function that converts a string to an integer.
-// Write a function that returns a Result indicating success or failure based on a condition.
-// Create a program that reads a file and handles the possible errors (file not found, permission issues, etc.).
-// Implement a function that parses a date string and returns a Result with the parsed date.
 
-// 8. Structs and Enums (Basic Level):
-// Create a struct representing a book with properties like title, author, and page count.
-// Define an enum for different types of shapes (circle, square, triangle) and associate it with a struct containing relevant properties.
-// Write a program that uses a struct to represent a point in 3D space.
-// Implement a function that calculates the area of different shapes using a struct and enum.
-// Create a simple inventory system using structs and enums.
+// 7. Structs and Enums (Basic Level):
+// 26- Create a struct representing a book with properties like title, author, and page count.
+// 27- Define an enum for different types of shapes (circle, square, triangle) and associate it with a struct containing relevant properties.
+
+
+// 8. Strings and String Manipulation (Basic Level):
+// 28-Concatenate two strings and print the result.
+//    Find the length of a string and print it.
+// 29- Write a program that reads a sentence from the user, counts the number of words, and prints the result.
+// 30- Implement a function that checks if a string contains a specific substring.
+// 31- Use string interpolation to create a message that includes variables.
 
 // 9. Pattern Matching:
 // Write a function that takes a tuple representing coordinates (x, y) and prints the quadrant the point is in.
@@ -58,9 +57,10 @@
 // Write a program that matches different types of vehicles and prints their fuel efficiency.
 // Create a function that pattern matches on a Result and prints a success message or an error message.
 
-// 10. Strings and String Manipulation (Basic Level):
-// Concatenate two strings and print the result.
-// Find the length of a string and print it.
-// Write a program that reads a sentence from the user, counts the number of words, and prints the result.
-// Implement a function that checks if a string contains a specific substring.
-// Use string interpolation to create a message that includes variables.
+
+// 10. Error Handling:
+// Implement a function that divides two numbers, handling the case of division by zero with a custom error message.
+// Use the Result type to handle errors in a function that converts a string to an integer.
+// Write a function that returns a Result indicating success or failure based on a condition.
+// Create a program that reads a file and handles the possible errors (file not found, permission issues, etc.).
+// Implement a function that parses a date string and returns a Result with the parsed date.
