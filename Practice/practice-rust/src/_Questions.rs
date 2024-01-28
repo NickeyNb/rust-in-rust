@@ -44,11 +44,8 @@
 
 
 // 8. Strings and String Manipulation (Basic Level):
-// 28-Concatenate two strings and print the result.
-//    Find the length of a string and print it.
+// 28- Find the length of a string and print it.
 // 29- Write a program that reads a sentence from the user, counts the number of words, and prints the result.
-// 30- Implement a function that checks if a string contains a specific substring.
-// 31- Use string interpolation to create a message that includes variables.
 
 // 9. Pattern Matching:
 // Write a function that takes a tuple representing coordinates (x, y) and prints the quadrant the point is in.
